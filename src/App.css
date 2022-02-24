@@ -9,7 +9,11 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 30s linear;
+    bottom: 55%;
+    position: absolute;
+    animation: App-logo-spin infinite 10s;
+    
+    
   }
 }
 
@@ -27,12 +31,23 @@
 .App-link {
   color: #61dafb;
 }
-/* 
+
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  0% {
+    left: 0;
   }
-  to {
-    transform: rotate(360deg);
+  48% {
+    -webkit-transform: rotateY(0deg); 
   }
-} */
+  50% { 
+    left: calc(93% - 100px);
+    -webkit-transform: rotateY(180deg); 
+  }
+  98% {
+    -webkit-transform: rotateY(180deg); 
+  }
+  100% {
+    left: 0;    
+     -webkit-transform: rotateY(0deg);
+  }
+}
