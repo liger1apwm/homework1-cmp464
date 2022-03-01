@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         
         {/* <p> YOOO we are in reactttt.</p> */}
-        <p> My name is Eric!! and I'm going to master React!</p>
+        <p className="App-paragraph"> My name is Eric!! and I'm going to master React!</p>
         <a
           className="App-link"
           href="https://github.com/liger1apwm"

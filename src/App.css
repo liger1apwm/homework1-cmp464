@@ -28,8 +28,17 @@
   color: white;
 }
 
+.App-paragraph {
+  color: rgba(64, 168, 55, 0.815);
+  position:fixed;
+  top: 350px;
+  font-family: 'Courier New', monospace;
+}
+
 .App-link {
   color: #61dafb;
+  position:fixed;
+  top: 280px;
 }
 
 @keyframes App-logo-spin {
